@@ -17,7 +17,16 @@ const totalTime = document.getElementById('total-time');
 
 
 // **************************** Objects
+const starwayToHeaven = {
+    id: '0',
+    songName: "Starway To Heaven",
+    artist: "Led Zeppelin",
+    file: "Led-Zeppelin-IV",
+    liked: false
+};
+
 const U2withOrWithoutYou = {
+    id: '1',
     songName: "With or Without You",
     artist: "U2",
     file: "U2-With-Or-Without-You",
@@ -25,6 +34,7 @@ const U2withOrWithoutYou = {
 }     
 
 const aHaTakeOnMe = {
+    id: '2',
     songName: "Take on Me",
     artist: "A Ha",
     file: "A-Ha-Take-On-Me",
@@ -32,6 +42,7 @@ const aHaTakeOnMe = {
 }  
 
 const depecheModeEnjoyTheSilence = {
+    id: '3',
     songName: "Enjoy The Silence",
     artist: "Depeche Mode",
     file: "Depeche-Mode-Enjoy-The-Silence",
@@ -39,6 +50,7 @@ const depecheModeEnjoyTheSilence = {
 }  
 
 const REMLosingMyReligion = {
+    id: '4',
     songName: "Losing My Religion",
     artist: "R.E.M.",
     file: "REM-Losing-My-Religion",
@@ -46,6 +58,7 @@ const REMLosingMyReligion = {
 }  
 
 const direStraitsMoneyForNothing = {
+    id: '5',
     songName: "Money for Nothing",
     artist: "Dire Straits",
     file: "Dire-Straits-Money-For-Nothing",
